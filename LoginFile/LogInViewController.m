@@ -51,7 +51,7 @@
     [datepicker setLocale: [[NSLocale alloc] initWithLocaleIdentifier: @"zh_CN"]];//设置时间选择器语言环境为中文
     datepicker.datePickerMode=UIDatePickerModeDate;
     datepicker.maximumDate = [NSDate date];
-    [self.view addSubview:datepicker];
+    //[self.view addSubview:datepicker];
     mutableArray=[[NSMutableArray alloc]initWithCapacity:100];
     if (dateToolbar == nil) {
         dateToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 38.0f)];

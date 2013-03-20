@@ -181,6 +181,17 @@
 		9DFD464116F8829F00C3CAF7 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD452A16F8600900C3CAF7 /* SRRefreshView.m */; };
 		9DFD464416F888BE00C3CAF7 /* MakefriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD464316F888BE00C3CAF7 /* MakefriendViewController.m */; };
 		9DFD464516F88EBF00C3CAF7 /* MakefriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD464316F888BE00C3CAF7 /* MakefriendViewController.m */; };
+		DCB5CEF816F9505100CA3B9C /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEEF16F9505100CA3B9C /* MyDetailViewController.m */; };
+		DCB5CEF916F9505100CA3B9C /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEEF16F9505100CA3B9C /* MyDetailViewController.m */; };
+		DCB5CEFA16F9505100CA3B9C /* ChangeMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF116F9505100CA3B9C /* ChangeMyInfoViewController.m */; };
+		DCB5CEFB16F9505100CA3B9C /* ChangeMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF116F9505100CA3B9C /* ChangeMyInfoViewController.m */; };
+		DCB5CEFC16F9505100CA3B9C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF316F9505100CA3B9C /* AboutViewController.m */; };
+		DCB5CEFD16F9505100CA3B9C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF316F9505100CA3B9C /* AboutViewController.m */; };
+		DCB5CEFE16F9505100CA3B9C /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF516F9505100CA3B9C /* FunctionViewController.m */; };
+		DCB5CEFF16F9505100CA3B9C /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF516F9505100CA3B9C /* FunctionViewController.m */; };
+		DCB5CF0016F9505100CA3B9C /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF716F9505100CA3B9C /* WelcomeViewController.m */; };
+		DCB5CF0116F9505100CA3B9C /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5CEF716F9505100CA3B9C /* WelcomeViewController.m */; };
+		DCB5CF0316F9511200CA3B9C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD447D16F8554500C3CAF7 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -385,6 +396,16 @@
 		9DFD461F16F87B0700C3CAF7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9DFD464216F888BE00C3CAF7 /* MakefriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakefriendViewController.h; sourceTree = "<group>"; };
 		9DFD464316F888BE00C3CAF7 /* MakefriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakefriendViewController.m; sourceTree = "<group>"; };
+		DCB5CEEE16F9505100CA3B9C /* MyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailViewController.h; sourceTree = "<group>"; };
+		DCB5CEEF16F9505100CA3B9C /* MyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailViewController.m; sourceTree = "<group>"; };
+		DCB5CEF016F9505100CA3B9C /* ChangeMyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMyInfoViewController.h; sourceTree = "<group>"; };
+		DCB5CEF116F9505100CA3B9C /* ChangeMyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMyInfoViewController.m; sourceTree = "<group>"; };
+		DCB5CEF216F9505100CA3B9C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		DCB5CEF316F9505100CA3B9C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		DCB5CEF416F9505100CA3B9C /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
+		DCB5CEF516F9505100CA3B9C /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
+		DCB5CEF616F9505100CA3B9C /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		DCB5CEF716F9505100CA3B9C /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -540,6 +561,16 @@
 				9DFD456C16F8634500C3CAF7 /* areaPicker.m */,
 				9DFD456D16F8634500C3CAF7 /* sexPicker.h */,
 				9DFD456E16F8634500C3CAF7 /* sexPicker.m */,
+				DCB5CEEE16F9505100CA3B9C /* MyDetailViewController.h */,
+				DCB5CEEF16F9505100CA3B9C /* MyDetailViewController.m */,
+				DCB5CEF016F9505100CA3B9C /* ChangeMyInfoViewController.h */,
+				DCB5CEF116F9505100CA3B9C /* ChangeMyInfoViewController.m */,
+				DCB5CEF216F9505100CA3B9C /* AboutViewController.h */,
+				DCB5CEF316F9505100CA3B9C /* AboutViewController.m */,
+				DCB5CEF416F9505100CA3B9C /* FunctionViewController.h */,
+				DCB5CEF516F9505100CA3B9C /* FunctionViewController.m */,
+				DCB5CEF616F9505100CA3B9C /* WelcomeViewController.h */,
+				DCB5CEF716F9505100CA3B9C /* WelcomeViewController.m */,
 			);
 			path = SettingFile;
 			sourceTree = "<group>";
@@ -980,6 +1011,11 @@
 				9DFD448116F8557A00C3CAF7 /* ActiveViewController.m in Sources */,
 				9DFD448416F8558D00C3CAF7 /* PartyViewController.m in Sources */,
 				9DFD448716F8559F00C3CAF7 /* MessageViewController.m in Sources */,
+				DCB5CEF816F9505100CA3B9C /* MyDetailViewController.m in Sources */,
+				DCB5CEFA16F9505100CA3B9C /* ChangeMyInfoViewController.m in Sources */,
+				DCB5CEFC16F9505100CA3B9C /* AboutViewController.m in Sources */,
+				DCB5CEFE16F9505100CA3B9C /* FunctionViewController.m in Sources */,
+				DCB5CF0016F9505100CA3B9C /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -987,6 +1023,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB5CF0316F9511200CA3B9C /* SettingViewController.m in Sources */,
 				9DFD44EE16F859DF00C3CAF7 /* SDImageView+SDWebCache.m in Sources */,
 				9DFD44EF16F859DF00C3CAF7 /* CustomObject.m in Sources */,
 				9DFD44F316F85AF000C3CAF7 /* DeviceSender.m in Sources */,
@@ -1055,6 +1092,11 @@
 				9DFD461D16F87AF000C3CAF7 /* JSONKit.m in Sources */,
 				9DFD462016F87B0700C3CAF7 /* MBProgressHUD.m in Sources */,
 				9DFD464416F888BE00C3CAF7 /* MakefriendViewController.m in Sources */,
+				DCB5CEF916F9505100CA3B9C /* MyDetailViewController.m in Sources */,
+				DCB5CEFB16F9505100CA3B9C /* ChangeMyInfoViewController.m in Sources */,
+				DCB5CEFD16F9505100CA3B9C /* AboutViewController.m in Sources */,
+				DCB5CEFF16F9505100CA3B9C /* FunctionViewController.m in Sources */,
+				DCB5CF0116F9505100CA3B9C /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
