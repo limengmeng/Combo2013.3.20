@@ -39,7 +39,7 @@
     [super viewDidLoad];
     [self getUUidForthis];
     //==================请求数据========================================
-    NSString* str=[NSString stringWithFormat:@"mac/party/IF00002?party_id=%@&&uuid=%@",p_id,userUUid];
+    NSString* str=[NSString stringWithFormat:@"mac/party/IF00105?p_id=%@&&uuid=%@",p_id,userUUid];
     NSString *stringP=globalURL(str);
     NSURL* url=[NSURL URLWithString:stringP];
     ASIHTTPRequest* request=[ASIHTTPRequest requestWithURL:url];
@@ -99,7 +99,7 @@
         //NSLog(@"%@",response);
         NSError* error;
         NSDictionary* bizDic=[NSJSONSerialization JSONObjectWithData:response options:NSJSONReadingMutableLeaves error:&error];
-        self.party =[bizDic objectForKey:@"party"];
+        self.party =[bizDic objectForKey:@"partys"];
         NSLog(@"hhhhhhhhhhhhhhhhhhhhhh%@",party);
         self.creatUser=[party objectForKey:@"creaters"];
         self.joinUser=[party objectForKey:@"participants"];
